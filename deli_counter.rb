@@ -24,7 +24,7 @@ def now_serving(array)
   else
   array.each do |name|
     puts "Currently serving #{name}."
-    array.shift
+    binding.pry 
    end 
  end
 end 
